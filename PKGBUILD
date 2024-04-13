@@ -1,13 +1,13 @@
 # Maintainer: Ian Glen <ian@ianglen.me>
 pkgname=lepton-eda-git
-pkgver=1.9.13.20201211.r0.5babfbafe
+pkgver=1.9.18.20220529.r2028.316720dcd
 pkgrel=1
 pkgdesc="A suite of free software tools for designing electronics."
 arch=('x86_64')
 url="https://github.com/lepton-eda/lepton-eda"
 license=('GPL')
 groups=()
-depends=('gtk2' 'gtk2+extra' 'guile' 'libstroke')
+depends=('gtk2' 'gtk2+extra' 'guile')
 makedepends=('git' 'pkg-config' 'flex' 'gawk')
 optdepends=('libstroke: mouse gesture support')
 provides=("${pkgname%-git}")

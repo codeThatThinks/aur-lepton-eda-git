@@ -1,6 +1,6 @@
 pkgbase = lepton-eda-git
 	pkgdesc = A suite of free software tools for designing electronics.
-	pkgver = 1.9.13.20201211.r0.5babfbafe
+	pkgver = 1.9.18.20220529.r2028.316720dcd
 	pkgrel = 1
 	url = https://github.com/lepton-eda/lepton-eda
 	arch = x86_64
@@ -12,7 +12,6 @@ pkgbase = lepton-eda-git
 	depends = gtk2
 	depends = gtk2+extra
 	depends = guile
-	depends = libstroke
 	optdepends = libstroke: mouse gesture support
 	provides = lepton-eda
 	conflicts = lepton-eda
@@ -20,4 +19,3 @@ pkgbase = lepton-eda-git
 	md5sums = SKIP
 
 pkgname = lepton-eda-git
-
